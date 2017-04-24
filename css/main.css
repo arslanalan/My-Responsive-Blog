@@ -17,13 +17,31 @@ body {
 }
 
 article {
-    width: 50em; /*50 x 16px = 800px*/
-}
-
-h1 {
-
+    margin: 0 auto;
+    max-width: 50em; /*50 x 16px = 800px*/
+    border-bottom: 1px solid #ddd;
 }
 
 img {
     max-width: 100%;
 }
+
+figcaption {
+  color: #bb021e;
+  padding: 1em 0;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+header {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.footer-li {
+    display: inline-block;
+}
+
